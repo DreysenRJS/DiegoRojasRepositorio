@@ -1,0 +1,724 @@
+/* Página inicial */
+
+#index{
+  background-image: url(../images/backgroundImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.barra-lateral {
+  width: 100px;
+  background-color: #042940;
+  padding: 20px;
+  height: 100vh;
+}
+
+.barra-lateral ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.barra-lateral li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.imagen-fondo img {
+  height: 100vh;
+  width: 1780px;
+}
+
+.contenido {
+  flex: 1;
+  padding: 20px;
+}
+
+/* información */
+.contenedor-informativo {
+  background-color: #042940E5;
+  position: absolute;
+  top: 350px;
+  left: 420px;
+  width: 1150px;
+  height: 400px;
+  border-radius: 15px;
+}
+
+.titulo-informativo h2 {
+  position: relative;
+  top: 45px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #F5F5F5;
+  padding: 20px;
+}
+
+.parrafo-informativo1 {
+  position: relative;
+  top: 88px;
+  color: #F5F5F5;
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+}
+
+.parrafo-informativo2 {
+  position: relative;
+  top: 189px;
+  color: #F5F5F5;
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+}
+
+/* Barra de navegación */
+
+.icono-menu {
+  position: absolute;
+  top: 70px;
+  left: 30px;
+}
+
+.icono-user {
+  position: absolute;
+  top: 140px;
+  left: 15px;
+  width: 70px;
+  
+}
+
+.icono-home {
+  position: absolute;
+  top: 320px;
+  left: 30px;
+  
+}
+
+.icono-buscador {
+  position: absolute;
+  top: 420px;
+  left: 30px;
+}
+
+.icono-curriculum {
+  position: absolute;
+  top: 520px;
+  left: 30px;
+}
+
+.icono-documento {
+  position: absolute;
+  top: 620px;
+  left: 30px;
+}
+
+.icono-notificacion {
+  position: absolute;
+  top: 720px;
+  left: 30px;
+}
+
+.icono-personalidad {
+  position: absolute;
+  top: 820px;
+  left: 30px;
+}
+
+/* Barra de búsqueda */
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 120px;
+  left: 420px;
+}
+
+#search-form {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+#search-form input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  width: 1050px;
+}
+
+#search-form button[type="submit"] {
+  padding: 10px 40px;
+  background: #005C53;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 33px 15px 15px 33px;
+  position: absolute;
+  left: 1028px;
+}
+
+/* Buscador */
+
+.contenedor-contenido-buscador {
+  background-color: #042940F2;
+  width: 100%;
+  height: 240px;
+}
+
+.background-buscador {
+  position: relative;
+  background-image: url(../images/buscador/backgroundBuscador.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 240px;
+  width: 1783px;
+  height: 699px;
+}
+
+/* login */
+
+#login {
+  background-image: url(../images/login/loginbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor-login {
+  position: absolute;
+  background-color: #042940;
+  width: 619px;
+  height: 600px;
+  top: 190px;
+  left: 680px;
+  border-radius: 33px;
+}
+
+#email{
+  position: absolute;
+  background-color: #042940;
+  border: 2px solid #F5F5F5;
+  color: #F5F5F5;
+  top: 115px;
+  left: 75px;
+  padding: 18px 40px;
+  width: 480px;
+  border-radius: 5px;
+}
+
+#password{
+  position: absolute;
+  background-color: #042940;
+  border: 2px solid #F5F5F5;
+  color: #F5F5F5;
+  top: 208px;
+  left: 75px;
+  padding: 18px 40px;
+  width: 480px;
+  border-radius: 5px;
+}
+
+.contenedor-remember {
+  position: absolute;
+  top: 310px;
+  left: 105px;
+}
+
+#label-remember {
+  color: #F5F5F5;
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 19px;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  top: 2px;
+  left: -28px;
+}
+
+.contenedor-olvido {
+  position: absolute;
+  top: 340px;
+  left: 75px;
+}
+
+.olvido {
+  text-decoration: none;
+  color: #F5F5F5;
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+}
+
+.btn-iniciar {
+  position: absolute;
+  top: 400px;
+  left: 240px;
+  padding: 10px 30px;
+  background-color: #F5F5F5;
+  border-radius: 15px;
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+}
+
+.txt-registro {
+  position: absolute;
+  top: 500px;
+  left: 210px;
+  color: #F5F5F5;
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.btn-registro {
+  position: absolute;
+  top: 530px;
+  left: 245px;
+}
+
+.btn-texto {
+  position: absolute;
+  left: -38px;
+  text-decoration: none;
+  padding: 3px 30px;
+  background-color: #9FC131;
+  color: #042940;
+  border-radius: 15px;
+}
+
+.btn-voz {
+  position: absolute;
+  left: 120px;
+  text-decoration: none;
+  padding: 3px 30px;
+  background-color: #9FC131;
+  color: #042940;
+  border-radius: 15px;
+}
+
+.imagen-perfil {
+  position: absolute;
+  left: 240px;
+  top: -80px;
+  width: 600px;
+}
+
+.icono-correo {
+  position: absolute;
+  top: 137px;
+  width: 25px;
+  left: 85px;
+}
+
+.icono-contraseña {
+  position: absolute;
+  top: 222px;
+  width: 25px;
+  left: 85px;
+}
+
+.error-correo{
+  position: absolute;
+  top: 132px;
+  left: 515px;
+}
+
+.error-contraseña{
+  position: absolute;
+  top: 222px;
+  left: 515px;
+}
+
+.btn-iniciar:hover {
+  background-color: #9FC131;
+  color: #042940;
+}
+
+.btn-texto:hover {
+  background-color: #F5F5F5;
+  color: #000;
+}
+
+.btn-voz:hover {
+  background-color: #F5F5F5;
+  color: #000;
+}
+
+/* registro */
+
+.contenedor-register {
+  position: absolute;
+  background-color: #042940;
+  width: 739px;
+  height: 760px;
+  top: 140px;
+  left: 580px;
+  border-radius: 0 33px 33px 33px;
+}
+
+.imagen-perfil-register {
+  position: absolute;
+  left: 290px;
+  top: -80px;
+  width: 600px;
+}
+
+.nombre-registro {
+  position: absolute;
+  background-color: #042940;
+  border: 2px solid #F5F5F5;
+  color: #F5F5F5;
+  top: 115px;
+  left: 30px;
+  padding: 18px 40px;
+  width: 670px;
+  border-radius: 5px;
+}
+
+.apellido-registro {
+  position: absolute;
+  background-color: #042940;
+  border: 2px solid #F5F5F5;
+  color: #F5F5F5;
+  top: 195px;
+  left: 30px;
+  padding: 18px 40px;
+  width: 670px;
+  border-radius: 5px;
+}
+
+.email-registro {
+  position: absolute;
+  background-color: #042940;
+  border: 2px solid #F5F5F5;
+  color: #F5F5F5;
+  top: 275px;
+  left: 30px;
+  padding: 18px 40px;
+  width: 670px;
+  border-radius: 5px;
+}
+
+.contraseña-registro {
+  position: absolute;
+  background-color: #042940;
+  border: 2px solid #F5F5F5;
+  color: #F5F5F5;
+  top: 355px;
+  left: 30px;
+  padding: 18px 40px;
+  width: 670px;
+  border-radius: 5px;
+}
+
+.confirmar-contraseña-registro{
+  position: absolute;
+  background-color: #042940;
+  border: 2px solid #F5F5F5;
+  color: #F5F5F5;
+  top: 435px;
+  left: 30px;
+  padding: 18px 40px;
+  width: 670px;
+  border-radius: 5px;
+}
+
+.pais-registro {
+  position: absolute;
+  background-color: #042940;
+  border: 2px solid #F5F5F5;
+  color: #F5F5F5;
+  top: 515px;
+  left: 28px;
+  padding: 18px 40px;
+  width: 670px;
+  border-radius: 5px;
+}
+
+.boton-registro {
+  position: absolute;
+  top: 690px;
+  left: 410px;
+  padding: 10px 30px;
+  background-color: #F5F5F5;
+  border-radius: 15px;
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  color: #042940;
+}
+
+.btn-cancelar {
+  position: absolute;
+  top: 692px;
+  left: 220px;
+  padding: 10px 30px;
+  background-color: #F5F5F5;
+  border-radius: 15px;
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #042940;
+}
+
+.titulo-registro-texto h2 {
+  position: absolute;
+  top: -41px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #F5F5F5;
+  font-family: "monserrat alternates";
+  background-color: #9FC131;
+  padding: 3px 30px;
+  border-radius: 15px 15px 0 0;
+}
+
+.g-recaptcha {
+  position: absolute;
+  top: 600px;
+  left: 220px;
+}
+
+.ico-nombre {
+  position: absolute;
+  top: 135px;
+  left: 40px;
+  width: 25px;
+}
+
+.ico-apellido {
+  position: absolute;
+  top: 215px;
+  left: 40px;
+  width: 25px;
+}
+
+.ico-email{
+  position: absolute;
+  top: 295px;
+  left: 40px;
+  width: 25px;
+}
+
+.ico-contraseña {
+  position: absolute;
+  top: 370px;
+  left: 40px;
+  width: 25px;
+}
+
+.ico-confirmar-contraseña {
+  position: absolute;
+  top: 450px;
+  left: 40px;
+  width: 25px;
+}
+
+.ico-pais {
+  position: absolute;
+  top: 535px;
+  left: 40px;
+  width: 25px;
+}
+
+.ico-microfono-nombre {
+  position: absolute;
+  top: 130px;
+  left: 658px;
+}
+
+.ico-microfono-apellido {
+  position: absolute;
+  top: 210px;
+  left: 658px;
+}
+
+.ico-microfono-correo {
+  position: absolute;
+  top: 290px;
+  left: 658px;
+}
+
+.ico-microfono-contraseña {
+  position: absolute;
+  top: 370px;
+  left: 658px;
+}
+
+.ico-microfono-contraseña-confirmar {
+  position: absolute;
+  top: 450px;
+  left: 658px;
+}
+
+.ico-microfono-pais{
+  position: absolute;
+  top: 530px;
+  left: 658px;
+}
+
+.err-nombre {
+  position: absolute;
+  top: 130px;
+  left: 618px;
+}
+
+.err-apellido {
+  position: absolute;
+  top: 210px;
+  left: 618px;
+}
+
+.err-email {
+  position: absolute;
+  top: 290px;
+  left: 618px;
+}
+
+.err-contraseña {
+  position: absolute;
+  top: 370px;
+  left: 618px;
+}
+
+.err-contraseña-confirmar {
+  position: absolute;
+  top: 450px;
+  left: 618px;
+}
+
+.err-pais {
+  position: absolute;
+  top: 530px;
+  left: 618px;
+}
+
+#recuperar {
+  background-color: #042940E5;
+}
+
+.contenedor-recuperar {
+  position: absolute;
+  background-color: #F5F5F5;
+  width: 680px;
+  height: 600px;
+  top: 190px;
+  left: 680px;
+  border-radius: 33px;
+}
+
+.titulo-recuperar h2 {
+  position: absolute;
+  top: 100px;
+  font-size: 32px;
+  color: #0E0E0E;
+  left: 148px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal; 
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.instrucciones-recuperar p {
+  position: absolute;
+  width: 510px;
+  height: 66px;
+  left: 75px;
+  top: 175px;
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #0E0E0E; 
+}
+
+#email-recuperar {
+  position: absolute;
+  width: 537px;
+  border: 1px solid #656565;
+  border-radius: 5px;
+  top: 285px;
+  left: 70px;
+  padding: 15px 0 15px 50px;
+}
+
+.recuperar-btn {
+  position: absolute;
+  width: 469px;
+  height: 39px;
+  left: 110px;
+  top: 365px;
+  background: #9FC131;
+  border-radius: 15px;
+  color: #F5F5F5;
+  border-color: #9FC131;
+}
+
+.recuperar-btn:hover {
+  background: #005C53;
+}
+
+.linea-divisoria {
+  position: absolute;
+  width: 568px;
+  left: 58px;
+  top: 430px;
+}
+
+.o-recuperar {
+  position: absolute;
+  top: 480px;
+  left: 338px;
+  font-size: 18px;
+}
