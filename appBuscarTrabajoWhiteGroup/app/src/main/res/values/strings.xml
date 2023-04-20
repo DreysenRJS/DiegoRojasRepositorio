@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">appBuscarTrabajoWhiteGroup</string>
+    <string name="labelEnviarBtn">Iniciar Sesión</string>
+    <string name="altFondoLoginScreen">Fondo de inicio de sesión</string>
+    <string name="labelRecuperarContraseña">¿Olvidaste tu contraseña?</string>
+    <string name="labelCorreoElectronico">Correo electronico</string>
+    <string name="labelContraseña">Contraseña</string>
+    <string name="labelRegistrarse">Registrate</string>
+    <string name="textoPrincipal">¡Bienvenido!</string>
+    <string name="RecuerdameLabel">Recuérdame</string>
+    <string name="Notienescuenta">¿No tienes cuenta?</string>
+    <string name="tituloRegistro">Registrate</string>
+    <string name="nombresLabelRegistro">Nombre(s)</string>
+    <string name="apellidoLabelRegistro">Apellidos</string>
+    <string name="correoLabel">Correo electrónico</string>
+    <string name="contraseñaLabel">Contraseña</string>
+    <string name="contraseñaConfirmarLabel">Confimar contraseña</string>
+    <string name="paisLabel">Ingrese su país</string>
+    <string name="crearCuentaBtn">Crear cuenta</string>
+    <string name="yaTienesCuentaText">¿Ya tienes cuenta?</string>
+    <string name="iniciarSesionBtn">Inicia sesión</string>
+    <string name="RegistroPopUp">Registro exitoso</string>
+    <string name="olvidarContraseña">¿Has olvidado tu contraseña?</string>
+    <string name="olvidarDescripcion">Ingresa la dirección de correo electrónico asociada a tu cuenta y te enviaremos un código para restablecer la contraseña.</string>
+    <string name="enviarCodigoBtn">Enviar código para restablecer la contraseña</string>
+    <string name="volveraInicioSesion">Volver a iniciar sesión</string>
+    <string name="tituloCodigoValidacion">Ingrese el código de validación</string>
+    <string name="DescripcionCodigo">Ingresa el código que se envió a tu correo electrónico para restablecer tu contraseña</string>
+    <string name="labelCodigo">Código</string>
+    <string name="validarBtn">Validar código</string>
+    <string name="enviarNewBtn">Enviar nuevo código</string>
+    <string name="nuevoCodigoPopUp">Nuevo código enviado</string>
+    <string name="tituloNuevaContraseña">Ingrese su nueva contraseña</string>
+    <string name="confirmarBtn">Confirmar</string>
+    <string name="recuperacionExitosa">¡Recuperación exitosa!</string>
+    <string name="homeTitulo1">Encuentra tu empleo soñado con nosotros</string>
+    <string name="descripcionHome1">Con nuestro buscador inteligente lo puedes encontrar en cuestión de pocos minutos.</string>
+    <string name="homeTitulo2">¿Sin capacitación laboral?</string>
+    <string name="descripcionHome2">¡Puedes capacitarte fácil, rápido y gratis con nosotros!</string>
+    <string name="descripcionHome3">Encuentra miles de horas de lecciones de acuerdo a tu perfil laboral</string>
+    <string name="visitalosBtn">Visitalos aquí</string>
+    <string name="nombreEmpresaTituloBusq">Nombre empresa</string>
+    <string name="descripcionBusq">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut</string>
+    <string name="cargoResultadoTitulo">Cargo</string>
+    <string name="infoEmpresaResultado">Info. de la empresa e inicio del empleo...
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut auctor purus. Nunc accumsan, justo sed scelerisque interdum, ex nunc egestas dolor.</string>
+    <string name="tituloSalario">Salario</string>
+    <string name="salarioCantidad">xxxxxxx</string>
+    <string name="trabajoSobreTitulo">Sobre el trabajo</string>
+    <string name="descripcionTrabajo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut auctor purus. Nunc accumsan, justo sed scelerisque interdum, ex nunc egestas dolor.</string>
+    <string name="tituloResponsabilidades">Responsabilidades del cargo</string>
+    <string name="descripcionResponsabilidades">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut auctor purus. Nunc accumsan, justo sed scelerisque interdum, ex nunc egestas dolor.</string>
+    <string name="tituloComoLlegar">Cómo llegar</string>
+    <string name="enviarCurriculumBtn">Enviar curriculum</string>
+    <string name="tituloCursos">Cursos</string>
+    <string name="nombreCursoTitulo">Nombre del curso</string>
+    <string name="descripcionCurso">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut</string>
+    <string name="nombreCursoTitulo">Nombre del curso</string>
+    <string name="infoCursoSelec">Info. del curso seleccionado...
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut auctor purus. Nunc accumsan, justo sed scelerisque interdum, ex nunc egestas dolor, in ultrices dui sem a diam. Sed non sagittis massa. Nam nulla elit, facilisis eget turpis at, vulputate laoreet.
+</string>
+    <string name="informacionAñadidaCurso">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut auctor purus. Nunc accumsan, justo sed scelerisque interdum, ex nunc egestas dolor.</string>
+    <string name="volverBtn">Volver</string>
+    <string name="empezarBtn">Empezar</string>
+    <string name="saberMasBtn">Saber más</string>
+    <string name="descripcionHomeIcono">Icono de home</string>
+
+</resources>
