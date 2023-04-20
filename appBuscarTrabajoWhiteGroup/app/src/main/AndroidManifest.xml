@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppBuscarTrabajoWhiteGroup"
+        tools:targetApi="31">
+        <activity
+            android:name=".vistadecargo"
+            android:exported="false" />
+        <activity
+            android:name=".vistacursoseleccionado"
+            android:exported="false" />
+        <activity
+            android:name=".validacionrecuperacioncontrasenapopup"
+            android:exported="false" />
+        <activity
+            android:name=".validacionrecuperacioncontrasena"
+            android:exported="false" />
+        <activity
+            android:name=".registropopup"
+            android:exported="false" />
+        <activity
+            android:name=".registroconerrores"
+            android:exported="false" />
+        <activity
+            android:name=".registro"
+            android:exported="false" />
+        <activity
+            android:name=".recuperarcontrasena"
+            android:exported="false" />
+        <activity
+            android:name=".nuevacontrasenapopup"
+            android:exported="false" />
+        <activity
+            android:name=".nuevacontrasenaerrores"
+            android:exported="false" />
+        <activity
+            android:name=".nuevacontrasena"
+            android:exported="false" />
+        <activity
+            android:name=".loginscreen"
+            android:exported="false" />
+        <activity
+            android:name=".cursolistaresultados"
+            android:exported="false" />
+        <activity
+            android:name=".buscadorlistaresultados"
+            android:exported="false" />
+        <activity
+            android:name=".loginscreenerror"
+            android:exported="false" />
+        <activity
+            android:name=".homescreen"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

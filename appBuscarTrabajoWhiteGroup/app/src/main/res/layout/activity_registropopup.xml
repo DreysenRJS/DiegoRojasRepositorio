@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registropopup">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/contenedor"
+            android:layout_width="323dp"
+            android:layout_height="665dp"
+            android:background="#CC042C40"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:id="@+id/paisFieldReg"
+                android:layout_width="293dp"
+                android:layout_height="34dp"
+                android:background="@drawable/formfield"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorBackground"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.533"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.792" />
+
+            <TextView
+                android:id="@+id/tituloRegistrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_alternates"
+                android:text="@string/tituloRegistro"
+                android:textColor="@color/colorBackground"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.054" />
+
+            <TextView
+                android:id="@+id/labelNombreReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
+                android:text="@string/nombresLabelRegistro"
+                android:textColor="@color/colorBackground"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toTopOf="@+id/LabelApellidoReg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tituloRegistrate"
+                app:layout_constraintVertical_bias="0.259" />
+
+            <EditText
+                android:id="@+id/nombreFieldReg"
+                android:layout_width="293dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/formfield"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorBackground"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/LabelApellidoReg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/labelNombreReg"
+                app:layout_constraintVertical_bias="0.153" />
+
+            <TextView
+                android:id="@+id/LabelApellidoReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
+                android:text="@string/apellidoLabelRegistro"
+                android:textColor="@color/colorBackground"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.066"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.242" />
+
+            <EditText
+                android:id="@+id/apellidoFieldReg"
+                android:layout_width="293dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/formfield"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorBackground"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/correoElectronicoLabelReg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LabelApellidoReg"
+                app:layout_constraintVertical_bias="0.071" />
+
+            <TextView
+                android:id="@+id/correoElectronicoLabelReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
+                android:text="@string/correoLabel"
+                android:textColor="@color/colorBackground"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.082"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.35" />
+
+            <EditText
+                android:id="@+id/correoElectronicoFieldReg"
+                android:layout_width="295dp"
+                android:layout_height="36dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/formfield"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorBackground"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/ContraseñaLabelReg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/correoElectronicoLabelReg" />
+
+            <TextView
+                android:id="@+id/ContraseñaLabelReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
+                android:text="@string/contraseñaLabel"
+                android:textColor="@color/colorBackground"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.061"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.481" />
+
+            <EditText
+                android:id="@+id/contraseñaFieldReg"
+                android:layout_width="291dp"
+                android:layout_height="38dp"
+                android:background="@drawable/formfield"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="@color/colorBackground"
+                app:layout_constraintBottom_toTopOf="@+id/confirmarContraseñaLabelReg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.437"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ContraseñaLabelReg"
+                app:layout_constraintVertical_bias="0.444" />
+
+            <TextView
+                android:id="@+id/confirmarContraseñaLabelReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
+                android:text="@string/contraseñaConfirmarLabel"
+                android:textColor="@color/colorBackground"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.068"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.597" />
+
+            <EditText
+                android:id="@+id/confirmarContraseñaFieldReg"
+                android:layout_width="291dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/formfield"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="@color/colorBackground"
+                app:layout_constraintBottom_toTopOf="@+id/paisLabelReg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.437"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/confirmarContraseñaLabelReg"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/paisLabelReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
+                android:text="@string/paisLabel"
+                android:textColor="@color/colorBackground"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.054"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.72" />
+
+            <Button
+                android:id="@+id/crearCuentaBtnReg"
+                android:layout_width="138dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="7dp"
+                android:backgroundTint="@color/colorAccent"
+                android:fontFamily="@font/open_sans"
+                android:text="@string/crearCuentaBtn"
+                android:textColor="@android:color/background_dark"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/paisFieldReg"
+                app:layout_constraintVertical_bias="0.037" />
+
+            <TextView
+                android:id="@+id/yaTienesCuentaTextReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginBottom="32dp"
+                android:fontFamily="@font/open_sans"
+                android:text="@string/yaTienesCuentaText"
+                android:textColor="@color/colorBackground"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/iniciaSeccionBtn"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button" />
+
+            <Button
+                android:id="@+id/iniciaSeccionBtn"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/open_sans"
+                android:text="@string/iniciarSesionBtn"
+                android:textColor="@color/colorBackground"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.792"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/difuminado"
+            android:layout_width="386dp"
+            android:layout_height="835dp"
+            android:background="#33FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/popUPRegistroExitoso"
+                android:layout_width="254dp"
+                android:layout_height="243dp"
+                android:background="@color/colorPrimaryDark"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/newCodigoSend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_alternates"
+                    android:text="@string/RegistroPopUp"
+                    android:textColor="@color/colorBackground"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imageButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.746" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="56dp"
+                    android:layout_height="48dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.615"
+                    app:srcCompat="@drawable/checkbox" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
